@@ -14,6 +14,7 @@ class GST<T extends Number> {
         rates.put("Electronics", 18.0);
         rates.put("Clothing", 12.0);
         rates.put("Furniture", 28.0);
+        rates.put("Food", 30.0);
         return rates;
     }
     public GST(T amount, String itemType)
